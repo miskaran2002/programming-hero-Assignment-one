@@ -370,3 +370,13 @@ button{
 .subcr-btn:where(:active, :focus-visible) {
     background-color: goldenrod;
 }
+
+/* subscribe end */
+
+/* footer start */
+.footer{
+    margin-top: 40px;
+    background-color:white;
+    width: 100%;
+}
+/* footer end */
