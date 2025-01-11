@@ -225,15 +225,14 @@ nav h1{
 
 /* quote start */
 
-.quote{
-    background-image: url(../assets/quote-bg.png);
+.icon{
+    background-image: url(../assets/quote-bg.png); 
     background-color: white;
     background-repeat: no-repeat;
     margin-top: 40px;
     padding: 32px 32px;
     border-radius: 20px;
-    margin-left: 4px;
-    
+    margin-left: 4px;    
    
 }
 
