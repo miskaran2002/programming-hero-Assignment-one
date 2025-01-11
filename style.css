@@ -36,6 +36,42 @@ nav h1{
 
 /* nav end */
 
+
+/* piller section start */
+
+.piller{
+    margin-top: 40px;
+    
+}
+.pil-one{
+    font-weight: 900;
+    font-size: 40px;
+    margin: 20px 0px;
+}
+
+
+
+
+.common-card{
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.piller-card{
+    background-color: white;
+    padding: 4px 4px;
+    border-radius: 12px;
+}
+
+.d-cardy{
+    
+    font-weight: bolder;
+    padding: 2px 5px;
+}
+
+/* piller section end */
+
 /* header start */
 
 .header{
