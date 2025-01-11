@@ -1,0 +1,372 @@
+/* nav start */
+nav{
+    margin-top: 30px;
+}
+nav>ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+nav li{
+    list-style: none;
+}
+nav h1{
+    font-weight: bolder;
+}
+
+.btn{
+   
+    font-weight: bold;
+    padding: 5px 20px;
+    border-radius: 9px;
+    font-size: 20px;
+    border-color: green;
+    
+
+
+}
+.btn:where(:hover, :focus) {
+    background-color: lavender;
+}
+.btn:where(:active, :focus-visible) {
+    background-color: goldenrod;
+}
+
+
+
+/* nav end */
+
+/* header start */
+
+.header{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    background-color: lawngreen;
+    border-radius: 30px;
+    padding: 30px 25px;
+}        
+   
+.p-one{
+   margin: 60px 10px  10px 30px;
+   color: rgba(89, 86, 86, 0.925);
+   font-size: 20px;
+}
+
+.p-two{
+    margin: 0px 30px;
+    font-size: 50px;
+    font-weight: bolder;
+}
+.h-btn{
+    margin: 30px 30px;
+    padding: 10px 15px;
+    background-color: green;
+    border: none;
+    color: white;
+    font-weight: 13px;
+    border-radius: 8px;
+}
+.h-btn:where(:hover, :focus) {
+    background-color: lavender;
+}
+
+.h-btn:where(:active, :focus-visible) {
+    background-color: goldenrod;
+}
+
+
+/* header end */
+
+/* article start */
+.article{
+    margin-top: 50px;
+}
+
+.p-ar-one{
+    font-weight: bolder;
+    font-size: 40px;
+    margin: 30px 0px;
+}
+
+.common-btn {
+
+    font-weight: bold;
+    background-color: darkgreen;
+    color: azure;
+    padding: 5px 20px;
+    border-radius: 9px;
+    font-size: 20px;
+    border:none
+
+
+
+}
+
+.common-btn:where(:hover, :focus) {
+    background-color: gold;
+}
+
+.common-btn:where(:active, :focus-visible) {
+    background-color: goldenrod;
+}
+
+
+.article-card{
+    display: flex;
+    justify-content: space-between;
+    gap: 40px; 
+    margin-top: 35px;
+}
+
+.card-one{
+    background-color: lightblue;
+    padding: 20px 20px;
+    border-radius: 12px;
+}
+
+.card-two{
+    background-color: aquamarine;
+    padding: 20px 20px;
+    border-radius: 12px;
+}
+
+.card-three{
+    background-color: bisque;
+    padding: 20px 20px;
+    border-radius: 12px;
+}
+.p-card{
+    font-weight: bold;
+    font-size: 20px;
+    margin: 7px 0px;
+}
+
+.d-card{
+    margin: 12px 0px;
+
+
+}
+.first-btn {
+
+    font-weight: bold;
+    background-color: yellowgreen;
+    color: azure;
+    padding: 5px 20px;
+    border-radius: 9px;
+    font-size: 20px;
+    border: none
+}
+
+.first-btn:where(:hover, :focus) {
+    background-color: lavender;
+}
+
+.first-btn:where(:active, :focus-visible) {
+    background-color: goldenrod;
+}
+
+.third-btn {
+
+    font-weight: bold;
+    background-color: skyblue;
+    color: azure;
+    padding: 5px 20px;
+    border-radius: 9px;
+    font-size: 20px;
+    border: none
+}
+
+.third-btn:where(:hover, :focus) {
+    background-color: lavender;
+}
+
+.third-btn:where(:active, :focus-visible) {
+    background-color: goldenrod;
+}
+
+/* article end */
+
+/* quote start */
+
+.quote{
+    background-image: url(../assets/quote-bg.png);
+    background-color: white;
+    background-repeat: no-repeat;
+    margin-top: 40px;
+     padding: 30px 30px; 
+    border-radius: 20px;
+    margin-left: 0px;
+    
+   
+}
+
+.p-desc{
+    padding: 20px 0px;
+}
+.name{
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.profession{
+    padding: 5px 0px;
+}
+
+/* quote end */
+
+
+/* news start */
+
+.p-news{
+    font-weight: bolder;
+    font-size: 20px;
+    padding: 20px 0;
+
+}
+
+.news-card{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    background-color: white;
+    margin: 30px 0px;
+    border-radius: 20px;
+    padding: 15px 15px;
+} 
+.news-img img {
+    object-fit: cover;
+    border-radius: 30px;
+    padding: 20px 12px;
+ 
+}
+
+.right-one{
+    font-weight: bolder;
+    font-size: 24px;
+    padding-top: 40px;
+    padding-bottom: 18px;
+}
+
+.date-time{
+    display: flex;
+    gap: 10px;
+    padding: 12px 0px;
+}
+
+.ne-ri-desc{
+    padding: 15px 0px;
+}
+
+.ne-btn{
+    padding: 15px 0px;
+}
+
+/* news end */
+
+/* donate start */
+
+.line-one{
+    font-weight: bolder;
+    font-size: 32px;
+    margin: 15px 0px;
+    text-align: center;
+}
+
+.line-two{
+    text-align: center;
+    margin: 10px 0px;
+}
+
+.line-three{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 20px;
+}
+
+.three-sub{
+    background-color: aliceblue;
+    font-size: 50px;
+    padding: 20px 20px;
+    border-radius: 16px;
+}
+
+.three-sub:where(:hover, :focus) {
+    background-color: blueviolet;
+}
+
+.three-sub:where(:active, :focus-visible) {
+    background-color: goldenrod;
+}
+
+.line-four{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 25px;
+    background-color: white;
+    padding: 10px 0;
+    margin: 0 40px;
+}
+
+.line-five{
+    text-align: center;
+    margin: 20px 10px;
+}
+
+/* donate end */
+
+/* subscribe start */
+.subscribe{
+    background-color: aquamarine;
+    padding: 40px 10px;
+    border-radius: 18px;
+}
+
+.subcr-one{
+    text-align: center;
+    font-weight: 800;
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+
+.subcr-two{
+    text-align: center;
+}
+
+.subcr-three{
+    display: flex;
+    align-items: center;
+    margin: 20px auto;
+    max-width: 400px;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+input[type="email"]{
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+}
+
+button{
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+
+.subcr-four{
+    text-align: center;
+
+}
+
+.subcr-btn:where(:hover, :focus) {
+    background-color: blueviolet;
+}
+
+.subcr-btn:where(:active, :focus-visible) {
+    background-color: goldenrod;
+}
